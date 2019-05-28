@@ -1,13 +1,30 @@
-<template>
+ <template>
   <div id="app">
+
     <img src="./assets/logo.png">
-    <router-view/>
+    <ul>
+    <li><router-link to="/">Home</router-link></li>
+    <li><router-link to="/helloworld">Hello</router-link></li>
+
+    </ul>
+    <router-view></router-view>
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return{
+      
+    
+    }
+
+  },
+  methods :{
+   
+  }
 }
 </script>
 

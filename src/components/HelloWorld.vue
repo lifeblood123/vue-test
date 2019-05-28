@@ -32,7 +32,7 @@
           href="https://twitter.com/vuejs"
           target="_blank"
         >
-          Twitter
+          Twitter2222555
         </a>
       </li>
       <br>
@@ -88,7 +88,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Cloud Welcome to Your Vue.js App'
     }
   }
 }
